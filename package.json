@@ -1,0 +1,27 @@
+{
+  "name": "notimportant",
+  "version": "1.2.3",
+  "description": "Get rid of !important in your CSS!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests are not !important\" && exit 1"
+  },
+  "keywords": [
+    "jokes",
+    "comedy",
+    "fun",
+    "css",
+    "important"
+  ],
+  "author": "klubiniecki",
+  "license": "ISC",
+  "bin": {
+    "notimportant": "./index.js"
+  },
+  "homepage": "https://github.com/mischiefjs/notimportant",
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "colors": "^1.3.3",
+    "node-fetch": "^2.6.0"
+  }
+}
